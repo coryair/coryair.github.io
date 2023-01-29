@@ -1,7 +1,6 @@
 ---
-layout: single
 title:  "Monitoring error logs within AWS Organizations"
-date:   2023-01-29 15:46:50 -0700
+date:   2023-01-28 15:46:50 -0700
 categories: aws organizations eventbridge event-driven
 ---
 A lot of tickets that come via AskAlteryx are access denied or unauthorized messages. 
