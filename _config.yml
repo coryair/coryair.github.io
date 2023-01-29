@@ -32,8 +32,22 @@ github_username: coryair
 # Build settings
 plugins:
 - jekyll-include-cache
+- jekyll-remote-theme
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+defaults:
+# _posts
+- scope:
+    path: ""
+    type: posts
+  values:
+    layout: single
+    read_time: true
+    comments: true
+    share: true
+    related: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
