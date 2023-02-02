@@ -93,7 +93,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/me.jpeg"
-  bio              : "Having fun."
+  bio              : "I'm a Cloud Engineer with interests in Infrastructure as Code, Python, and Event-Driven Architecture."
   location         : "Denver, CO"
   links:
     - label: "LinkedIn"
