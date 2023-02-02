@@ -5,5 +5,5 @@ permalink: /about/
 author_profile: true
 search: true
 ---
-Started my career nearly 12 years ago as a Senior in High School. I was working for my public school system as a paid intern. In the internship I would go around campus and troubleshoot teacher, facility, and other administartor staff's computer problems. I would walk from classroom to classroom, saying hi to my friends at the same time resolve the issue if I could, then leave. It was a blast and as the first ever IT job, created a lot of oppurtunity for me. 
 
+I started my career in 2011 during my senior year of high school. I was working for the public school system in my hometown as a paid intern. In the internship I would go around campus to troubleshoot teachers, facility, and other administrator staff's computer issues. Walking from classroom to classroom, saying hello to my friends while at the same time attempting to fix basic computer problems. It was a blast and as my first ever IT job, it created a lot of opportunity for me. Now, I'm a Cloud Engineer for a data science and analytics company! I'm in AWS, Terraform, and Python most days.
