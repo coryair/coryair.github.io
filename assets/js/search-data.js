@@ -20,7 +20,7 @@ ninja.data = [{
       
         title: "Capturing AWS Organization Events with EventBridge and Buses and Taking Action",
       
-      description: "Learn how to reduce support tickets and automate responses by capturing AWS Organization events with EventBridge and event buses. Step-by-step guide for implementing cross-account event tracking and automated remediation using CloudTrail logs.",
+      description: "Learn how to reduce support tickets and automate responses by capturing AWS Organization events with EventBridge and event buses.",
       section: "Posts",
       handler: () => {
         
