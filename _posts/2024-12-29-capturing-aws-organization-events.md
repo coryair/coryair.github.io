@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Capturing AWS Organization Events with EventBridge and Buses and Taking Action
-date: 2025-01-01 12:00:00:
+date: 2025-01-01 12:00:00
 description: Learn how to reduce support tickets and automate responses by capturing AWS Organization events with EventBridge and event buses. Step-by-step guide for implementing cross-account event tracking and automated remediation using CloudTrail logs.
 tags: AWS Events
 categories: Observability Platform Events 
