@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cory Hernandez — Software engineer at Alteryx. A little about me and how to get in touch.">
+    <meta name="theme-color" content="#f8f4ec">
+    <meta property="og:title" content="Cory Hernandez">
+    <meta property="og:description" content="Software engineer at Alteryx. A little about me and how to get in touch.">
+    <meta property="og:type" content="website">
+    <title>Cory Hernandez</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --paper: #f8f4ec;
+        --ink: #27251f;
+        --muted: #5d5748;
+        --line: #d7d0c0;
+        --accent: #1b4e73;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: radial-gradient(ellipse at top left, #fffdf7, var(--paper) 65%);
+        color: var(--ink);
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 17px;
+        line-height: 1.75;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      main {
+        width: min(860px, calc(100% - 48px));
+        margin: 56px auto 80px;
+      }
+
+      header {
+        padding-bottom: 22px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 1.4;
+      }
+
+      .subtitle {
+        margin: 5px 0 0;
+        color: var(--muted);
+        font-size: 15px;
+        font-style: italic;
+      }
+
+      section {
+        padding: 34px 0 36px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      h2 {
+        margin: 0 0 18px;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+      }
+
+      .about {
+        max-width: 74ch;
+        margin: 0;
+        padding-left: 21px;
+        color: var(--muted);
+      }
+
+      .about li { padding-left: 3px; }
+      .about li + li { margin-top: 12px; }
+      p { margin: 0 0 12px; }
+      .contact-copy { color: var(--muted); }
+
+      a {
+        color: var(--accent);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 4px;
+        overflow-wrap: anywhere;
+      }
+
+      a:hover { text-decoration-thickness: 2px; }
+
+      a:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 5px;
+        border-radius: 2px;
+      }
+
+      .contact-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 24px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .contact-links a { display: inline-block; padding: 6px 0; }
+
+      @media (max-width: 600px) {
+        main { width: calc(100% - 40px); margin-top: 32px; }
+        section { padding: 28px 0; }
+        body { font-size: 16px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Cory Hernandez</h1>
+        <p class="subtitle">Software Engineer · Cloud Infrastructure &amp; Developer Tools</p>
+      </header>
+
+      <section aria-labelledby="about-heading">
+        <h2 id="about-heading">About me</h2>
+        <ul class="about">
+          <li>I'm a software engineer at Alteryx, building tools that make cloud environments easier to use. My background is in system administration and cloud infrastructure.</li>
+          <li>I got my start in tech in 2010 as an IT intern at my local high school.</li>
+          <li>When I'm away from the keyboard, you'll find me traveling or enjoying the Colorado Rocky Mountains.</li>
+          <li>Happy to chat. Say hi.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Reach out</h2>
+        <ul class="contact-links">
+          <li><a href="mailto:cory@coryair.com">cory@coryair.com</a></li>
+          <li><a href="https://github.com/coryair">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/coryhernandez/">LinkedIn</a></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
